@@ -1,0 +1,90 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .section {
+    padding: 50px 20px;
+    background: #f4f4f4;
+  }
+  
+  .section:nth-child(even) {
+    background: #e2e2e2;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .skills-list li {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .projects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+  }
+  
